@@ -1,0 +1,6 @@
+#System defaults
+system:
+  #Generate public ports for the docker image
+  ports:
+    http:
+      REDIS_PORT
