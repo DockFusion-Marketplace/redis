@@ -1,3 +1,30 @@
+#User defined
+user:
+  redis_version:
+    label:
+      Redis version
+    hint:
+      Select Redis version
+    type:
+      select
+    values:
+      - "7.4"
+      - "7.0"
+      - "6.2"
+    target:
+      REDIS_VERSION
+
+  redis_password:
+    label:
+      Redis password
+    hint:
+      password
+    type:
+      text-input
+    values:
+    target:
+      REDIS_PASSWORD
+      
 #System defaults
 system:
   #Generate public ports for the docker image
